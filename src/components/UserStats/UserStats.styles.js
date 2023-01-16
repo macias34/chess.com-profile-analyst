@@ -20,11 +20,13 @@ export const UserStat = styled.div`
 
 export const Icon = styled.i`
   font-size: 1.5rem;
+  color: ${(props) => props.color};
 `;
 
 export const StatValue = styled.p`
   font-size: 0.8rem;
   font-weight: 700;
   margin: unset;
-  margin-top: 1vh;
+  margin-top: 1.5vh;
+  color: white;
 `;
